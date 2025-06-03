@@ -1,0 +1,5 @@
+google-adk==1.1.1 # For google.adk modules
+google-genai==1.18.0 # For google.genai modules
+python-dotenv==1.1.0
+litellm==1.68.0 # For litellm modules
+pymysql==1.1.1

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Multi-Agent Chat</title>
+  <script defer src="main.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col items-center justify-center p-4">
+  <div class="w-full max-w-xl bg-white rounded-xl shadow-md p-6">
+    <h1 class="text-2xl font-bold mb-4 text-center">Emma Assistant</h1>
+    <div id="chat-box" class="h-96 overflow-y-auto border rounded p-4 mb-4 bg-gray-50"></div>
+    <div class="flex gap-2">
+      <input id="user-input" type="text" class="flex-grow border rounded p-2" placeholder="Type a message..." />
+      <button onclick="sendMessage()" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Send</button>
+    </div>
+  </div>
+</body>
+</html>
